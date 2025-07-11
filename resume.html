@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume - James Wicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container loading">
+        <!-- Header Section -->
+        <header class="header">
+            <img src="images/Headshot.JPG" alt="James Wicker Headshot" class="profile-image">
+            <div class="header-content">
+                <h1>James Wicker</h1>
+                <p class="subtitle">AI / Machine Learning Developer</p>
+                <div class="contact-links">
+                    <a href="mailto:jameswicker555@gmail.com" class="contact-link">
+                        📧 Email
+                    </a>
+                    <a href="https://github.com/jameswicker5" target="_blank" class="contact-link">
+                        🐙 GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/james-wicker-195a061a8/" target="_blank" class="contact-link">
+                        💼 LinkedIn
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation Bar -->
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">🏠 Home</a></li>
+                <li><a href="education.html" class="nav-link">🎓 Education</a></li>
+                <li><a href="projects.html" class="nav-link">💼 Projects</a></li>
+                <li><a href="resume.html" class="nav-link active">📄 Resume</a></li>
+            </ul>
+        </nav>
+
+        <!-- Resume Section -->
+        <section class="section resume-section">
+            <h2>Resume Gallery</h2>
+            <p class="section-description">View my complete resume below. Click on any page to view it in full size.</p>
+            
+            <div class="resume-gallery">
+                <div class="resume-page" onclick="openLightbox(0)">
+                    <img src="images/resume_page1.jpg" alt="Resume Page 1">
+                </div>
+                <div class="resume-page" onclick="openLightbox(1)">
+                    <img src="images/resume_page2.jpg" alt="Resume Page 2">
+                </div>
+                <div class="resume-page" onclick="openLightbox(2)">
+                    <img src="images/resume_page3.jpg" alt="Resume Page 3">
+                </div>
+                <div class="resume-page" onclick="openLightbox(3)">
+                    <img src="images/resume_page4.jpg" alt="Resume Page 4">
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards & Achievements -->
+        <section class="section">
+            <h2>Awards & Achievements</h2>
+            <div class="awards-grid">
+                <div class="award-card">
+                    <h3>🏆 Academic Excellence</h3>
+                    <ul>
+                        <li><strong>Cum Laude</strong> - Beloit College (2021)</li>
+                        <li><strong>Dean's List</strong> - Multiple semesters</li>
+                        <li><strong>4.0 GPA</strong> - AI/ML Certificate Program</li>
+                        <li><strong>Academic All-Conference</strong> - Athletic & Academic Excellence</li>
+                    </ul>
+                </div>
+                
+                <div class="award-card">
+                    <h3>🥇 Competition Results</h3>
+                    <ul>
+                        <li><strong>March Madness AI Predictor</strong> - Ranked 741st out of 1,727 teams</li>
+                        <li><strong>Kaggle Competitions</strong> - Multiple competition participations</li>
+                        <li><strong>AI Hackathon</strong> - Event organizer and participant</li>
+                        <li><strong>National AI Conference</strong> - Panelist speaker</li>
+                    </ul>
+                </div>
+                
+                <div class="award-card">
+                    <h3>🎯 Leadership & Innovation</h3>
+                    <ul>
+                        <li><strong>AI Hackathon Organizer</strong> - First at Chandler Gilbert CC</li>
+                        <li><strong>AI Club Member</strong> - Active contributor</li>
+                        <li><strong>Community Engagement</strong> - Multi-college collaboration</li>
+                        <li><strong>Dataset Creation</strong> - 4K Image Geolocation Benchmark</li>
+                    </ul>
+                </div>
+                
+                <div class="award-card">
+                    <h3>📚 Certifications</h3>
+                    <ul>
+                        <li><strong>Kaggle Certifications</strong> - Python, Machine Learning</li>
+                        <li><strong>Google Project Management</strong> - Professional Certificate</li>
+                        <li><strong>Oracle SQL</strong> - Database Management</li>
+                        <li><strong>AI/ML Certificate</strong> - Chandler Gilbert CC</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience -->
+        <section class="section">
+            <h2>Professional Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <h3>AI/ML Developer</h3>
+                    <p class="company">Independent Projects & Competitions</p>
+                    <p class="date">2024 - Present</p>
+                    <div class="experience-details">
+                        <ul>
+                            <li>Developed and deployed machine learning models for various applications</li>
+                            <li>Created comprehensive datasets for AI research and benchmarking</li>
+                            <li>Participated in competitive ML challenges on Kaggle platform</li>
+                            <li>Organized and led AI hackathon events for educational institutions</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <h3>Research & Development</h3>
+                    <p class="company">Academic & Community Projects</p>
+                    <p class="date">2024 - Present</p>
+                    <div class="experience-details">
+                        <ul>
+                            <li>Conducted research on AI bias in geographical image recognition</li>
+                            <li>Developed computer vision applications for real-world problems</li>
+                            <li>Collaborated with faculty and students on innovative AI solutions</li>
+                            <li>Presented findings at national conferences and academic forums</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- References Section -->
+        <section class="section">
+            <h2>Professional References</h2>
+            <div class="references-grid">
+                <div class="reference-card">
+                    <h3>Academic References</h3>
+                    <div class="reference-list">
+                        <div class="reference-item">
+                            <strong>Habib Matar</strong><br>
+                            <em>Professor of Artificial Intelligence</em><br>
+                            Chandler Gilbert Community College<br>
+                            📞 (480) 818-5082
+                        </div>
+                        
+                        <div class="reference-item">
+                            <strong>Brian Morello</strong><br>
+                            <em>Clinical Professor & Director of CELEB</em><br>
+                            Beloit College<br>
+                            📞 (414) 507-0526
+                        </div>
+                        
+                        <div class="reference-item">
+                            <strong>Dave DeGeorge</strong><br>
+                            <em>Athletic Director & Head Baseball Coach</em><br>
+                            Beloit College<br>
+                            📞 (608) 295-3125
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reference-card">
+                    <h3>Professional References</h3>
+                    <div class="reference-list">
+                        <div class="reference-item">
+                            <strong>Hunter Taylor, Ph.D.</strong><br>
+                            <em>CEO & Founder</em><br>
+                            Tailored All
