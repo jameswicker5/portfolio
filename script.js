@@ -52,6 +52,11 @@ function initializeLightbox() {
         `;
         document.body.insertAdjacentHTML('beforeend', lightboxHTML);
     }
+
+    const pages = document.querySelectorAll('.resume-page');
+    pages.forEach((page, index) => {
+        page.addEventListener('click', () => openLightbox(index));
+    });
     
     // Add keyboard navigation
     document.addEventListener('keydown', function(e) {
