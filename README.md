@@ -4,7 +4,7 @@ Welcome to my personal portfolio website, built to showcase my journey, projects
 
 This responsive site is live on **GitHub Pages** and was developed using HTML, CSS, and JavaScript—custom-coded for clarity, professionalism, and a smooth user experience.
 
-🔗 **Live Site**: ([https://jameswicker5.github.io](https://jameswicker5.github.io/portfolio/))  
+🔗 **Live Site**: ([https://jameswicker5.github.io/portfolio](https://jameswicker5.github.io/portfolio/))  
 📬 **Email**: jameswicker555@gmail.com  
 🐙 **GitHub**: [@jameswicker5](https://github.com/jameswicker5)  
 💼 **LinkedIn**: [James Wicker](https://www.linkedin.com/in/james-wicker-195a061a8/)
