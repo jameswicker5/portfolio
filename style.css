@@ -56,12 +56,11 @@ body {
 }
 
 .profile-educ-image {
-    width:100%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 15px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
 }
 
 .profile-educ-image:hover {
